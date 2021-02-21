@@ -1,4 +1,11 @@
 build:
   uri: https://github.com/rmortale/code-with-quarkus.git
   ref: feature/helm-chart
-  
+
+## Application properties file for configuring the Quarkus app
+deploy:
+  applicationProperties:
+    enabled: true
+    properties: |-
+      ## Properties go here
+      myapp.message: hello from code environment
