@@ -1,0 +1,4 @@
+build:
+  uri: https://github.com/rmortale/code-with-quarkus.git
+  ref: feature/helm-chart
+  
